@@ -1,0 +1,21 @@
+{
+  "name": "uli/buffer-api-client",
+  "description": "A PHP client for the public Buffer GraphQL API that hides GraphQL from application code.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "suggest": {
+    "psr/http-client": "Allow using a PSR-18 HTTP client instead of cURL.",
+    "psr/http-factory": "Required by the optional PSR-18 transport.",
+    "psr/http-message": "Required by the optional PSR-18 transport."
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
